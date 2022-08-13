@@ -7,7 +7,7 @@
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
 }
-body.dark
+body.darkskill-item
 {
     --bg-black-900: #151515;
     --bg-black-100: #222222;
@@ -419,6 +419,14 @@ h3.my-profession
     max-width: 100%;
 }
 .about .about-content .skills .skill-item h5
+{
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+.about .about-content .skills .skill-item p
 {
     line-height: 40px;
     font-weight: 400;
