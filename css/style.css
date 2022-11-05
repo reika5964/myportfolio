@@ -374,8 +374,8 @@ h3.my-profession
 }
 .about .about-content .personal-info
 {
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 100%;
+    max-width: 100%;
     margin-top: 40px;
 }
 .about .about-content .personal-info .info-item
@@ -409,8 +409,8 @@ h3.my-profession
 }
 .about .about-content .skills
 {
-    flex: 0 0 40%;
-    max-width: 40%;
+    flex: 0 0 100%;
+    max-width: 100%;
     margin-top: 40px;
 }
 .about .about-content .skills .skill-item
@@ -429,9 +429,9 @@ h3.my-profession
 .about .about-content .skills .skill-item p
 {
     line-height: 40px;
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--text-black-900);
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(127, 124, 123);
     text-transform: capitalize;
 }    
 .about .about-content .skills .skill-item .progress
